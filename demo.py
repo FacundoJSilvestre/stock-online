@@ -42,8 +42,7 @@ def show():
     return render_template('home.html', results=results, fieldnames=fieldnames, len=len)
 
 
- 
-
+ #Final del archivo
 if __name__ == '__main__':
  # Iniciamos la aplicación
  app.run(debug=True)
